@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    padding: 16px;
+    margin: 10px;
+    /* background-image: url('download.jfif'); */
+}
+
+.h3-tag {
+    color: red;
+    background-color: aqua;
+    /* margin-top: 30px; */
+    /* padding: 20px; */
+    padding-left: 4rem;
+
+}
+#paragraph {
+    color:aqua
+}
+
+.hover-me:hover{
+    color: red;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-side::first-line {
+    color: blue;
+}
